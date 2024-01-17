@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+
+body {
+    background-color: lightcyan;
+}
+
+main {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: black;
+}
+
+ul {
+    padding-left: 2rem;
+}
+
+ol {
+    padding-left: 2rem;
+}
+
+.like {
+    color: green;
+}
+
+li {
+    color: crimson;
+}
+
+.thunder {
+    color: purple;
+}
+
+a[href="img/8bstclwxjnz21.jpg"] {
+    color: plum;
+    font-style: italic;
+}
+
+h3  {
+    font-style: italic;
+}
+
+img[src="img/gatonaranja.png"] {
+    border-radius: 1rem;
+    height: 512px;
+}
