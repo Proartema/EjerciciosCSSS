@@ -1,0 +1,6 @@
+input:default + label {
+    color: green;
+}
+input:focus {
+    background-color: blueviolet;
+}
