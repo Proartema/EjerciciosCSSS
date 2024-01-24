@@ -1,0 +1,31 @@
+#DIV1 {
+    background-color: rgb(0, 255, 213);
+    height: 500px;
+    width: 900px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 1rem;
+}
+
+#DIV2 {
+    height: 200px;
+    width: 400px;
+    float:left;
+        margin-left: 70px;
+        
+}
+img {
+        height: 100%;
+        margin-top: 100px;
+}
+#piedeimg {
+    align-items: flex-end;
+}
+
+#DIV3 {
+    height: 200px;
+    width: 300px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}

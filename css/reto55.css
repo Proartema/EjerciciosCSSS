@@ -1,0 +1,14 @@
+li:after {
+    content:"]";
+    padding-left: 3px;
+}
+li:before {
+    content:"[";
+    padding-left: 3px;
+}
+
+Elgirlo
+
+Historia
+
+por qué deberias visitarlo
