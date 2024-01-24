@@ -1,5 +1,13 @@
+main {
+    position:absolute;
+    align-content: center;
+}
+
+
 #DIV1 {
-    background-color: rgb(0, 255, 213);
+    background-image: url(../img/VintageCarta.png);
+    background-size:cover;
+    background-attachment: fixed;
     height: 500px;
     width: 900px;
     margin-left: 10px;
@@ -8,24 +16,45 @@
 }
 
 #DIV2 {
-    height: 200px;
-    width: 400px;
+    position: relative;
+    
+    height: 400px;
+    width: 385px;
     float:left;
-        margin-left: 70px;
+    margin-left: 20px;
+    margin-top: 60px
         
 }
 img {
-        height: 100%;
-        margin-top: 100px;
+    border-radius: 1rem;
+        height: 76%;
+        
 }
-#piedeimg {
-    align-items: flex-end;
+H2 {
+    position:absolute;
+    bottom: 5px;
+    margin-left: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #DIV3 {
-    height: 200px;
-    width: 300px;
+    position: relative;
+    
+    height: 400px;
+    width: 365px;
     float: right;
-    margin-right: 100px;
-    margin-top: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+p {
+    margin-top: 10%;
+    font-size: 110%;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+h2::first-letter{
+    font-size: 200%;
 }
