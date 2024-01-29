@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+@font-face {
+    font-family: 'Bergdool' ;
+    src:local("Bergdool"),
+    url(../Fonts/Bergdool-w1EmZ.ttf)
+}
+* {
+    font-family: 'Open Sans' ;
+}
+h1 {
+    font-family: 'Bergdool';
+    font-size: 6rem;
+}
+h2 {
+    font-family: 'Bergdool';
+    font-size: 5rem;
+}
