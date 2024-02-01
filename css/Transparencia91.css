@@ -1,0 +1,13 @@
+.content-box {
+    width: 800px;
+    margin:auto;
+    height: 100 ;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+
+.border-box {
+    box-sizing: border-box;
+    /*Ancho total: 250px + (2 * 25) - (2 * 5) =190px
+        Ancho total: 75px + (2 * 25) - (2 * 5) =10px*/
+}

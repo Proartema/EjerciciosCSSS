@@ -1,0 +1,19 @@
+div {
+    width:250px;
+    height: 75px;
+    padding: 25px;
+    border: 5px solid black;
+    background: lightblue;
+}
+
+.content-box {
+    box-sizing: content-box;
+    /*Ancho total: 250px + (2 * 25) + (2 * 5) =310px
+        Ancho total: 75px + (2 * 25) + (2 * 5) =135px*/
+}
+
+.border-box {
+    box-sizing: border-box;
+    /*Ancho total: 250px + (2 * 25) - (2 * 5) =190px
+        Ancho total: 75px + (2 * 25) - (2 * 5) =10px*/
+}
