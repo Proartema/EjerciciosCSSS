@@ -1,0 +1,62 @@
+@keyframes cambiarColor {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: orange;
+    }
+    75% {
+        background-color: violet;
+    }
+    100% {
+        background-color: yellow;
+    }
+    
+}
+
+@keyframes desplazar {
+    0% {
+        margin-left: 0px;
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+    25% {
+        margin-left: 200px;
+    }
+    50% {
+        margin-left: 0px
+    }
+    75% {
+        margin-left: -200px
+    }
+    100%{
+        margin-left: 0px
+    }
+}
+
+.mi-elemento{
+    background-color: red;
+    border: 5px solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    box-sizing: content-box;
+    justify-items: center;
+    animation: cambiarColor infinite 1s;
+}
+
+img {
+    height: auto;
+    width: 20vw;
+    padding: 20% 30%;
+    animation: desplazar infinite 2s;
+    animation-timing-function: linear;
+}
+embed {
+    width: auto;
+    margin-left: 42%;
+    padding-top: 10px;
+}

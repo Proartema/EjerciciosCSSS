@@ -1,0 +1,45 @@
+@keyframes cambiarColor {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: orange;
+    }
+    75% {
+        background-color: violet;
+    }
+    100% {
+        background-color: yellow;
+    }
+    
+}
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.mi-elemento{
+    background-color: red;
+    border: 5px solid;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    box-sizing: content-box;
+    justify-items: center;
+    animation: cambiarColor infinite 1s;
+}
+
+img {
+    height: auto;
+    width: 20vw;
+    padding: 20% 30%;
+    animation: rotar infinite 2s;
+    animation-timing-function: linear;
+}
