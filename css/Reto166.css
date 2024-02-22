@@ -1,0 +1,95 @@
+@keyframes entrar {
+    from {
+        transform: scale(130%);
+    }
+    to {
+        transform: scale(100%);
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Helvetica';
+    text-decoration: none;
+}
+.redessociales {
+    background-color: black;
+}
+.redessociales img {
+    width: 2%;
+    margin-left: 90%;
+}
+.navegador {
+    background-color: black;
+}
+
+.navegador section{
+    margin-left:30%;
+    font-size: 0.9vw;
+    padding-bottom: 1%;
+}
+.navegador a {
+    color: white;
+    padding: 1.5%;
+}
+.logo {
+    max-width: 100%;
+}
+.logo img {
+    max-width: 100%;
+    animation: entrar 2s;
+}
+.productos {
+    background-color: black;
+    max-width: 100%;
+    color: white;
+}
+.productos h2 {
+    margin-left: 35%;
+}
+.productos section {
+    
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns:20% 20% 20% 20%;
+}
+.tarjeta {
+    
+    background-color: green;
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 55%;
+    margin-bottom: 40%;
+    
+}
+.tarjeta img {
+    width: 100%;
+    
+}
+.tarjeta a {
+    padding-left: 19%;
+    color: white;
+}
+.tarjeta span {
+    padding-left: 39%;
+    color: white;
+}
+.video {
+    
+}
+footer {
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: white;
+    margin-left: 10%;
+    margin-top: 7%;
+
+}
+
+footer li {
+    margin-left: 50%;
+    margin-top: 3%;
+}
