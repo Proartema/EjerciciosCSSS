@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'Bergdool' ;
     src:local("Bergdool"),
-    url(../Fonts/Bergdool-w1EmZ.ttf)
+    url(../)
 }
 * {
     font-family: 'Open Sans' ;

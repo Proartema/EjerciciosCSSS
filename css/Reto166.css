@@ -35,24 +35,28 @@
 }
 .logo {
     max-width: 100%;
+    
 }
 .logo img {
     max-width: 100%;
     animation: entrar 2s;
+    width:100vw;
 }
 .productos {
     background-color: black;
     max-width: 100%;
+    height: 75vw;
     color: white;
 }
 .productos h2 {
-    margin-left: 35%;
+    margin-left: 45%;
 }
 .productos section {
-    
+    margin-top: 5%;
     display: grid;
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns:20% 20% 20% 20%;
+    grid-gap: 2%;
 }
 .tarjeta {
     
@@ -68,28 +72,30 @@
     
 }
 .tarjeta a {
-    padding-left: 19%;
+    padding-left: 35%;
     color: white;
 }
 .tarjeta span {
-    padding-left: 39%;
+    padding-left: 45%;
     color: white;
 }
 .video {
-    
+    background-color: black;
 }
 footer {
-    background-color: black;
+    background-image: url(/img/footerBLACKSUN.webp);
     color: white;
+    height: 18vw;
 }
 footer a{
     color: white;
     margin-left: 10%;
-    margin-top: 7%;
 
 }
 
 footer li {
     margin-left: 50%;
     margin-top: 3%;
+    list-style-type: none;
+    
 }
